@@ -12,7 +12,7 @@ import com.devsuperior.dspesquisa.dto.GameDTO;
 import com.devsuperior.dspesquisa.services.GameService;
 
 @RestController
-@RequestMapping(value = "/game")
+@RequestMapping(value = "/games")
 public class GameResource {
 	
 	@Autowired
