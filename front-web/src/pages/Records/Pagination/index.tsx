@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-type Porps = {
+type Props = {
     totalPages?: number;
     goToPage: Function;
     activePage: number;
